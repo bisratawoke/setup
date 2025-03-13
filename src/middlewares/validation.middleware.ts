@@ -8,6 +8,7 @@ declare global {
     }
   }
 }
+
 export default function genericValidationMiddleware(
   schema: ZodSchema<any>,
   source: "body" | "params" | "query"
